@@ -1,7 +1,8 @@
-<a href='https://www.YouTube.com/CodingTutorials360'>Check Out My YouTube Channel </a>
-
 # 100AlgorithmsChallenge
 
+<p>This repository demonstrates common Interview Alogrithms using TypeScript</p>
 
-<p>This is the setup for my Udemy Course: The 100 Algorithms Challenge: How to Ace the JavaScript Coding Interview.</p>
-<p>There are 100 algorithms with README instructions as well as the initial function setup with a few test cases.</p>
+### Refrences
+
+<a href='https://www.YouTube.com/CodingTutorials360'>CodingTutorial</a>
+<a href='https://www.udemy.com/course/100-algorithms-challenge'>Udemy Course</a>
