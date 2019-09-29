@@ -3,7 +3,7 @@
  * @param param1 Number
  * @param param2 Number
  */
-function add(param1: number, param2: number): number {
+export function add(param1: number, param2: number): number {
   // @todo check for constraints (param[...] >= -100 && <= 1000 )
   return param1 + param2;
 }
@@ -12,7 +12,7 @@ function add(param1: number, param2: number): number {
  * Adds any number of arugments together
  * @param param1 Array:number
  */
-function add2(...param1: number[]): number {
+export function add2(...param1: number[]): number {
   let total = 0;
   param1.forEach(element => {
     total += element;
@@ -20,6 +20,7 @@ function add2(...param1: number[]): number {
 
   return total;
 }
+
 // `
 // console.log(add(1, 2));
 // console.log(add(3, 2));

@@ -4,7 +4,7 @@
   "description": "100 Alogrithms",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive tests"
+    "test": "mocha --require ts-node/register tests/**/*.ts"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,12 @@
   "homepage": "https://github.com/bcoden/One-Hundred-Alogrithms#readme",
   "devDependencies": {
     "mocha": "^6.2.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3",
     "unit.js": "^2.1.0"
+  },
+  "dependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.7.8"
   }
 }
