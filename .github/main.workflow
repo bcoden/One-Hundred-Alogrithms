@@ -15,3 +15,9 @@ action "npm test" {
   runs = "npm"
   args = "test"
 }
+
+action "Deploy Notification" {
+  needs = "npm test"
+  uses = "apex/actions/slack@master"
+  secrets = ["SLACK_WEBHOOK_URL"]
+}
