@@ -1,6 +1,6 @@
-  workflow "Run Tests" {
+workflow "Run Tests" {
   on = "push"
-  resolves = ["npm test"]
+  resolves = ["Deploy Notification"]
 }
 
 action "npm ci" {
